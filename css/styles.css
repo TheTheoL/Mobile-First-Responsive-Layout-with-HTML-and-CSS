@@ -1,0 +1,345 @@
+/* GENERAL */
+body {
+  text-align: center;
+  background-color: #F6F6F6;
+}
+
+.content-wrap {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.portfolios,
+.intro {
+  padding: 15px;
+}
+
+.portfolio-item {
+  padding-bottom: 10px;
+  margin: 20px 0 20px 0;
+}
+
+footer ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+p {
+  padding: 5px;
+}
+
+.footernav {
+  display: none;
+}
+
+.studentfooter {
+  margin-left: 10px;
+}
+
+.backtotop {
+  float: right;
+  margin-right: 10px;
+}
+
+.studentname1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: auto;
+}
+
+h4 {
+  padding-top: 35px;
+}
+
+h4,
+a,
+li {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  color: black;
+  font-size: 12px;
+}
+
+#studentname {
+  font-size: 16px;
+
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  color: black;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: black;
+  padding-top: 25px;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.portfolios,
+h4 {
+  padding: 2px;
+  background-color: white;
+}
+
+h4 {
+  padding-top: 40px;
+}
+
+.contactheading {
+  padding-bottom: 20px;
+}
+
+.profile-picture {
+  padding-bottom: 30px;
+}
+
+/* NAVOGATION / HEADER */
+.contact {
+  padding: 25px 15px 25px 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-items {
+  padding: 10px;
+  margin: 0 2px 10px 2px;
+  background-color: white;
+}
+
+img {
+  max-width: 90%;
+}
+
+/* CONTACT */
+.contact {
+  margin-bottom: auto;
+  padding: 25px 5px 25px 5px;
+}
+
+/* FOOTER */
+footer {
+  border-top: 2px solid;
+  border-width: thin;
+  border-color: #CDD0CB;
+}
+
+footer ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin-top: 0;
+
+}
+
+.footer-items {
+  /* padding:  2px; */
+}
+
+/* MEDIA */
+/* -------------- 768px --------- */
+@media screen and (min-width: 768px) {
+
+  .intro,
+  .main-nav,
+  .profile-picture,
+  .portfolios,
+  .portfolio-item {
+    display: flex;
+  }
+
+  .main-nav {
+    justify-content: center;
+  }
+
+  .content-wrap {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+
+.into {
+  align-self: center;
+
+
+}
+
+  .nav-items {
+    justify-content: center;
+    background-color: #F6F6F6;
+  }
+
+  .intro {
+    flex-direction: column;
+  }
+
+  .studentname1 {
+    margin-top: 5px;
+    margin-bottom: 20px;
+  }
+
+  ul {
+
+  }
+
+  .profile-picture {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .pro-pic {
+    margin: 20px;
+  }
+
+  .pro-intro {
+    text-align: left;
+    margin: 19px 0 0 10px;
+  }
+
+  .portfolios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .portfolio-item h3 {
+    flex-basis: 100%;
+  }
+
+  .portfolio-item {
+    display: flex;
+    width: 50%;
+    padding: 1px;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .contact p {
+    width: 60%;
+    padding-bottom: 20px;
+  }
+
+  h3 {
+    padding-bottom: 20px;
+  }
+
+  h3 p {
+    margin-top: 2px;
+  }
+
+
+  .backtotop {
+    display: none;
+  }
+
+  footer {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+  }
+
+  .studentfooter {
+    margin-left: 20px;
+  }
+
+  .footernav {
+    display: flex;
+    padding-right: 15px;
+  }
+
+  .footerhome {
+    margin-left: 400px;
+  }
+
+
+}
+
+/* -------------- 1024px --------- */
+@media screen and (min-width: 1024px) {
+  .content-wrap {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .portfolio-item {
+    display: flex;
+    width: 30%;
+    padding: 1px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-shrink: 3;
+    justify-content: space-around;
+  }
+
+  .intro {
+    flex-direction: row;
+  }
+
+  .main-nav {
+    margin: 0 0 0 25px;
+    display: inline-flex;
+    float: right;
+    justify-content: flex-start;
+  }
+
+  .nav-items {
+    margin-bottom: 0;
+  }
+
+  .studentname1 {
+    display: inline;
+    margin-top: 5px;
+    margin-left: 0;
+  }
+
+  .studentfooter {
+    margin-left: 10px;
+  }
+
+  .footernav {
+    display: flex;
+    padding-right: 15px;
+  }
+
+  .footerhome {
+    margin-left: 650px;
+  }
+
+  footer ul {
+    align-content: center;
+  }
+
+}
